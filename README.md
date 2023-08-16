@@ -1,1 +1,2 @@
-# blockchain-learn
+# Blockchain Learning
+个人区块链学习笔记📒，大部分参考资料来源于网上🕸️，加上个人的一些加工和总结🏭。
