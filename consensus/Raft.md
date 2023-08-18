@@ -9,8 +9,8 @@
     - [数据结构及接口定义](#数据结构及接口定义)
     - [消息处理流程](#消息处理流程)
       - [选举相关消息处理流程](#选举相关消息处理流程)
-      - [MsgPreVote/MsgPreVoteResp \& MsgVote/MsgVoteResp 消息](#msgprevotemsgprevoteresp--msgvotemsgvoteresp-消息)
-      - [MspApp \& MsgAppResp 消息](#mspapp--msgappresp-消息)
+      - [投票相关消息处理流程](#投票相关消息处理流程)
+      - [日志复制相关消息处理流程](#日志复制相关消息处理流程)
 - [参考资料](#参考资料)
 # 概述
 Raft算法是一种用于分布式系统中的共识算法，由Diego Ongaro和John Ousterhout于发布于论文<In Search of an Understandable Consensus Algorithm (Extended Version)>。Raft算法的设计目标是提供一种更容易理解和实现的共识算法，相对于Paxos算法而言更具可读性和可维护性。
@@ -743,7 +743,8 @@ func (r *raft) campaign(t CampaignType) {
 }
 ```
 
-#### MsgPreVote/MsgPreVoteResp & MsgVote/MsgVoteResp 消息
+#### 投票相关消息处理流程
+投票消息包括 MsgPreVote、MsgPreVoteResp、MsgVote 和 MsgVoteResp 消息。
 
 当Follower的选举计时器超时时，会把当前状态切换成 StatePreCandidate（预选举）或StateCandidate（候选人），并向集群中其他节点发送MsgPreVote或MsgVote消息。当集群中其他节点收到(预)选举消息时，会先进行一些检验，符合相关条件会投同意，否则会投拒绝票，然后发送给该候选节点，发送的消息类型为MsgPreVoteResp或MsgVoteResp类型。如果预选举阶段(StatePreCandidate)成功收到超过半数以上的同意票，那么该节点会认为选举成功，会发起新一轮的正式选举(节点状态切换成SateCandidate(候选人)，发送的消息类型为MsgVote)。如果是正式选举成功收到超过半数以上的同意票，那个该节点会成为新的Leader。如果没有收到超过半数的票则会将节点状态切换成Follower。
 其他节点接收到MsgVote/MsgPreVote类型的消息流程在raft的Step方法中：
@@ -859,7 +860,8 @@ func stepCandidate(r *raft, m pb.Message) error {
 }	
 ```
 
-#### MspApp & MsgAppResp 消息
+#### 日志复制相关消息处理流程
+日志复制相关消息包括 `MspApp` 和 `MsgAppResp` 消息
 
 当候选人通过选举成为新的Leader后，首先会调用becomeLeader方法初始化相关状态，然后会调用bcastAppend方法，该方法主要向集群中其他节点广播MsgApp消息。
 
