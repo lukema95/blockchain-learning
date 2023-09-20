@@ -10,6 +10,8 @@
     - [历史](#历史)
     - [安全性和活性](#安全性和活性)
     - [PFBT算法](#pfbt算法)
+    - [Raft算法](#raft算法)
+    - [Tendermint算法](#tendermint算法)
 
 # 导论
 ## 概念介绍
@@ -107,3 +109,9 @@ ACID 也是一种比较出名的描述一致性的原则，通常出现在分布
 
 ### PFBT算法
 [PFBT算法](/consensus/PBFT.md)
+
+### Raft算法
+[Raft算法](/consensus/Raft.md)
+
+### Tendermint算法
+[Tendermint算法](/consensus/Tendermint.md)
