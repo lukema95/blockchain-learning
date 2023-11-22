@@ -21,3 +21,5 @@
 [Grokking Bitcoin](https://github.com/kallerosenbaum/grokkingbitcoin)
 
 [Programming Bitcoin](https://github.com/jimmysong/programmingbitcoin)
+
+[Understanding Ethereum: Go-Ethereum Code Analysis](https://github.com/ABCDELabs/Understanding-Ethereum-Go-version)
