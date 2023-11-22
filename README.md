@@ -17,5 +17,7 @@
 
 ## 📚书籍
 [Mastering Bitcoin 2nd Edition - Programming the Open Blockchain](https://github.com/bitcoinbook/bitcoinbook)
+
 [Grokking Bitcoin](https://github.com/kallerosenbaum/grokkingbitcoin)
+
 [Programming Bitcoin](https://github.com/jimmysong/programmingbitcoin)
