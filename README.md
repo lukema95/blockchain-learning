@@ -16,7 +16,13 @@
 - TODO
 
 ## 📚书籍
+### Bitcoin
 - [Mastering Bitcoin 2nd Edition - Programming the Open Blockchain](https://github.com/bitcoinbook/bitcoinbook)
+- [Mastering the Lightning Network (LN)](https://github.com/lnbook/lnbook)
 - [Grokking Bitcoin](https://github.com/kallerosenbaum/grokkingbitcoin)
 - [Programming Bitcoin](https://github.com/jimmysong/programmingbitcoin)
+- [Bitcoin development philosophy](https://bitcoindevphilosophy.com/)
+- [Onboarding to Bitcoin Core](https://github.com/chaincodelabs/onboarding-to-bitcoin-core)
+
+### Ethereum
 - [Understanding Ethereum: Go-Ethereum Code Analysis](https://github.com/ABCDELabs/Understanding-Ethereum-Go-version)
