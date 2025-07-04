@@ -15,6 +15,8 @@
     - [📒学习笔记](#学习笔记)
       - [🔥DeFi](#defi)
     - [🕸️学习资料](#️学习资料)
+      - [🔥Solidity](#solidity)
+    - [🔐安全](#安全)
     - [🔧工具](#工具)
     - [🔌插件](#插件)
     - [📜博客](#博客)
@@ -42,11 +44,13 @@
 - TODO
 
 ## 📒智能合约
+
 ### 📒学习笔记
 #### 🔥DeFi
 - [dydx-v2 合约源码解读](/defi/dydx/README.md)
 
 ### 🕸️学习资料
+#### 🔥Solidity
 - [Solidity中文文档](https://solidity-cn.readthedocs.io/)
 - [OpenZeppeline](https://docs.openzeppelin.com/) - OpenZeppeline 文档
 - [Solidity by Example](https://solidity-by-example.org/) - Solidity 例子
@@ -56,21 +60,35 @@
 - [learning-solidity](https://github.com/willitscale/learning-solidity) - Solidity 文档和 YouTube 教程
 - [awesome-solidity](https://github.com/bkrem/awesome-solidity) - 精选的 Solidity 资源、库、工具等列表
 - [smart-contract-best-practices](https://github.com/ConsenSys/smart-contract-best-practices) - ConsenSys 关于合约的最佳实践仓库
-- [awesome-ethereum-security](https://github.com/crytic/awesome-ethereum-security) - 精彩的以太坊安全参考精选列表
-- [WTF-solcurity](https://github.com/WTFAcademy/WTF-solcurity) - Solidity 智能合约的公认安全和代码质量标准
 - [Dapp-Learning](https://github.com/Dapp-Learning-DAO/Dapp-Learning) - 适合各个阶段开发者的Dapp学习项目
 - [solidity-expert](https://github.com/dukedaily/solidity-expert) - 以太坊开发教程
-- [solidity-security-blog](https://github.com/sigp/solidity-security-blog) - Solidity 安全，已知攻击媒介和常见反模式的综合列表
-- [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs) - 使用Foundry重现DeFi被黑事件
-- [DeFiVulnLabs](https://github.com/SunWeb3Sec/DeFiVulnLabs) - 使用 Foundry 了解常见的智能合约漏洞
-- [Blockchain Security Audit List](https://github.com/0xNazgul/Blockchain-Security-Audit-List) - A list of Blockchain Security audit companies, solo auditors and location of public audits
 - [Smart Contract Weakness Classification (SWC) ](https://swcregistry.io/) - 智能合约弱点分类
 - [Capture the Ether](https://capturetheether.com/) - 以太坊智能合约安全游戏
 - [CryptoZombies](https://cryptozombies.io/) - CryptoZombies是一个互动学校，教你所有关于区块链的技术知识。通过制作自己的加密收藏品游戏来学习编写智能合约。
-- [starklings-cairo1](https://github.com/shramee/starklings-cairo1) - An interactive tutorial to get you up and running with Cairo v1 and Starknet
+- [DeFi-Developer-Road-Map](https://github.com/OffcierCia/DeFi-Developer-Road-Map) - 以太坊智能合约开发路线图
+
+### 🔐安全
+- [Alchemy Security Tools](https://www.alchemy.com/dapps/top/security-tools) - Alchemy 安全工具合集，包括173个最佳的Web3安全工具
+- [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs) - 使用Foundry重现DeFi被黑事件
+- [DeFiVulnLabs](https://github.com/SunWeb3Sec/DeFiVulnLabs) - 使用 Foundry 了解常见的智能合约漏洞
+- [solidity-security-blog](https://github.com/sigp/solidity-security-blog) - Solidity 安全，已知攻击媒介和常见反模式的综合列表
+- [awesome-ethereum-security](https://github.com/crytic/awesome-ethereum-security) - 精彩的以太坊安全参考精选列表
+- [WTF-solcurity](https://github.com/WTFAcademy/WTF-solcurity) - Solidity 智能合约的公认安全和代码质量标准
+- [solsec](https://github.com/sannykim/solsec) - 研究Solana智能合约安全性，审核和利用的资源集合
+- [web3-security-resources](https://github.com/Raiders0786/web3-security-resources) - 区块链安全资源
+- [public-audits](https://github.com/Frankcastleauditor/public-audits) - Frankcastle 私有/公开的个人智能合约审计报告
+- [PublicReports](https://github.com/HalbornSecurity/PublicReports) - Halborn 公开的智能合约审计报告
+- [security-and-auditing-full-course-s23](https://github.com/Cyfrin/security-and-auditing-full-course-s23) - 安全审计全栈课程
+- [Blockchain-Attack-Vectors](https://github.com/ImmuneBytes-Security-Audit/Blockchain-Attack-Vectors) - 引用，分类和减轻区块链攻击向量的框架
+- [awesome-solana-security](https://github.com/0xMacro/awesome-solana-security) - Solana 安全资源
+- [50-days-of-crushing-audits](https://github.com/0xaudron/50-days-of-crushing-audits) - 50天破解智能合约
 - [Cryptocurrency-Security-Audit-Guide](https://github.com/slowmist/Cryptocurrency-Security-Audit-Guide/tree/main) - 慢雾加密货币安全审计导论
+- [Blockchain Security Audit List](https://github.com/0xNazgul/Blockchain-Security-Audit-List) - 区块链安全审计公司、独立审计师和公共审计地点列表
 
 ### 🔧工具
+- [slither](https://github.com/crytic/slither) - Solidity 静态分析工具
+- [mythx](https://mythx.io/) - Mythril 是一个基于符号执行的以太坊虚拟机字节码安全分析工具，用于检测以太坊和其他 EVM 兼容区块链构建的智能合约中的安全漏洞。
+- [echidna](https://github.com/crytic/echidna) - Echidna 是一个基于符号执行的智能合约模糊测试工具，用于检测智能合约中的安全漏洞。
 - [Remix](https://remix.ethereum.org/) - Solidity IDE
 - [Hardhat](https://hardhat.org/) - 以太坊专业开发环境。它由用于编辑、编译、调试和部署智能合约和 dApp 的不同组件组成，所有这些组件共同创建一个完整的开发环境。
 - [Foundry](https://github.com/foundry-rs/foundry) - Foundry 是一个使用 Rust 编写的用于以太坊应用程序开发的速度极快、可移植且模块化的工具包。
@@ -144,12 +162,9 @@
 - [zkp-application/circom-rsa-verify](https://github.com/zkp-application/circom-rsa-verify) - Zero Knowledge Proof for RSA
 
 ### 🔥相关项目
-- [Sismo](https://www.sismo.io/) - The Sismo Protocol issues ZK Badges (SBTs) - a primitive to integrate reputation to web3 apps, respecting users privacy and sovereignty([sismo-core/sismo-badges](https://github.com/sismo-core/sismo-badges))
 - [zkMove Project](https://www.zkmove.net/) - A zero-knowledge proof friendly Move language runtime environment.
 - [DelphinusLab/zkWasm](https://github.com/DelphinusLab/zkWasm) - zkWasm
 - [Scroll](https://scroll.io/) - The native zkEVM
-- [zCloak Network](https://zcloak.network/) - Deliver the Web3 Dream of Self-Sovereignty—Privacy-first DID and verifiable computation infrastructure.
-- [Manta Network](https://www.manta.network/) - The Privacy Hub for Web3
 - [Aztec](https://aztec.network/) - The programmable privacy layer for web3
 - [Zecrey Protocol](https://www.zecrey.com/) - zkRollup based Layer 2 protocol featuring privacy and scalability.
 - [zkSync](https://zksync.io/) - zkRollup
