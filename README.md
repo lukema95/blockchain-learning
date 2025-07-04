@@ -86,6 +86,9 @@
 - [50-days-of-crushing-audits](https://github.com/0xaudron/50-days-of-crushing-audits) - 50天破解智能合约
 - [Cryptocurrency-Security-Audit-Guide](https://github.com/slowmist/Cryptocurrency-Security-Audit-Guide/tree/main) - 慢雾加密货币安全审计导论
 - [Blockchain Security Audit List](https://github.com/0xNazgul/Blockchain-Security-Audit-List) - 区块链安全审计公司、独立审计师和公共审计地点列表
+- [solana-ctf](https://github.com/neodyme-labs/solana-ctf) - Solana CTF挑战
+- [solsec](https://github.com/sannykim/solsec) - 研究Solana智能合约安全性，审核和利用的资源集合
+- [Move-Audit-Resources](https://github.com/0xriazaka/Move-Audit-Resources) - Move 审计资源
 
 ### 🔧工具
 - [slither](https://github.com/crytic/slither) - Solidity 静态分析工具
