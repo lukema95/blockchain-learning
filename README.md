@@ -62,14 +62,14 @@
 - [smart-contract-best-practices](https://github.com/ConsenSys/smart-contract-best-practices) - ConsenSys 关于合约的最佳实践仓库
 - [Dapp-Learning](https://github.com/Dapp-Learning-DAO/Dapp-Learning) - 适合各个阶段开发者的Dapp学习项目
 - [solidity-expert](https://github.com/dukedaily/solidity-expert) - 以太坊开发教程
-- [Smart Contract Weakness Classification (SWC) ](https://swcregistry.io/) - 智能合约弱点分类
-- [Capture the Ether](https://capturetheether.com/) - 以太坊智能合约安全游戏
 - [CryptoZombies](https://cryptozombies.io/) - CryptoZombies是一个互动学校，教你所有关于区块链的技术知识。通过制作自己的加密收藏品游戏来学习编写智能合约。
 - [DeFi-Developer-Road-Map](https://github.com/OffcierCia/DeFi-Developer-Road-Map) - 以太坊智能合约开发路线图
 - [solmate](https://github.com/transmissions11/solmate) - 现代、有主见的、gas优化的智能合约
 - [solady](https://github.com/Vectorized/solady) - Gas优化的Solidity库
 
 ### 🔐安全
+- [Smart Contract Weakness Classification (SWC) ](https://swcregistry.io/) - 智能合约弱点分类
+- [Capture the Ether](https://capturetheether.com/) - 以太坊智能合约安全游戏
 - [Alchemy Security Tools](https://www.alchemy.com/dapps/top/security-tools) - Alchemy 安全工具合集，包括173个最佳的Web3安全工具
 - [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs) - 使用Foundry重现DeFi被黑事件
 - [DeFiVulnLabs](https://github.com/SunWeb3Sec/DeFiVulnLabs) - 使用 Foundry 了解常见的智能合约漏洞
