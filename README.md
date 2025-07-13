@@ -68,6 +68,7 @@
 - [solady](https://github.com/Vectorized/solady) - Gas优化的Solidity库
 
 ### 🔐安全
+- [Audit Checklist](https://github.com/Cyfrin/audit-checklist) - 智能合约审计检查清单聚合
 - [AI Auditor Primers](https://github.com/devdacian/ai-auditor-primers) - AI审计员知识库
 - [Smart Contract Weakness Classification (SWC) ](https://swcregistry.io/) - 智能合约弱点分类
 - [Capture the Ether](https://capturetheether.com/) - 以太坊智能合约安全游戏
