@@ -68,6 +68,7 @@
 - [solady](https://github.com/Vectorized/solady) - Gas优化的Solidity库
 
 ### 🔐安全
+- [AI Auditor Primers](https://github.com/devdacian/ai-auditor-primers) - AI审计员知识库
 - [Smart Contract Weakness Classification (SWC) ](https://swcregistry.io/) - 智能合约弱点分类
 - [Capture the Ether](https://capturetheether.com/) - 以太坊智能合约安全游戏
 - [Alchemy Security Tools](https://www.alchemy.com/dapps/top/security-tools) - Alchemy 安全工具合集，包括173个最佳的Web3安全工具
